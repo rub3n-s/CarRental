@@ -1,0 +1,44 @@
+﻿@model A.Models.Venda
+
+@{
+    ViewData["Title"] = "Create";
+    
+}
+
+<h1>Criar Registo</h1>
+
+<h4>Venda</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+            <div class="form-group">
+                <label asp-for="ReservaId" class="control-label"></label>
+                <select asp-for="ReservaId" class ="form-control" asp-items="ViewBag.CursoID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="QtVendida" class="control-label"></label>
+                <input asp-for="QtVendida" class="form-control" />
+                <span asp-validation-for="QtVendida" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmpresaId" class="control-label"></label>
+                <select asp-for="EmpresaId" class="form-control" asp-items="ViewBag.EmpresaId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Retornar à Listagem</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

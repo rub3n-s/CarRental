@@ -1,0 +1,47 @@
+@model A.Models.Levantamento
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Levantamento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="ReservaId" />
+            <div class="form-group">
+                <label asp-for="NumKM" class="control-label"></label>
+                <input asp-for="NumKM" class="form-control" />
+                <span asp-validation-for="NumKM" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Danos" /> @Html.DisplayNameFor(model => model.Danos)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacoes" class="control-label"></label>
+                <input asp-for="Observacoes" class="form-control" />
+                <span asp-validation-for="Observacoes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FuncionarioEmail" class="control-label"></label>
+                <input asp-for="FuncionarioEmail" class="form-control" />
+                <span asp-validation-for="FuncionarioEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

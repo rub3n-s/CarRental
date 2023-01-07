@@ -1,0 +1,26 @@
+@model A.Models.EmpresaRating;
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Classificar a Empresa</h2>
+
+@if (User.IsInRole("Cliente"))
+{
+    <div class="container-fluid text-left d-flex flex-column">
+        @using (Html.BeginForm("CreateFromDetails", "EmpresaRatings"))
+        {
+            <h2>Avalie a empresa</h2>
+            <h3>Nota de 0-10:</h3>
+            <input class ="form-control" type="number" name="Avaliacao" />
+            <h3>Comentário:</h3>
+            <textarea class="form-control" name="Comment"></textarea>
+            <input type="hidden" name="AccomodationId" value="@Model.Id" />
+            <input class="btn btn-primary mt-2 ml-auto mr-0 w-25" type="submit" value="Submit" />
+        }
+
+        <input type="button" class="btn btn-success mt-5" value="Book Now!" onclick="@("window.location.href='" + Url.Action("CreateFromDetails", "Reservas", new { id = @Model.Id }) + "'");" />
+    </div>
+}

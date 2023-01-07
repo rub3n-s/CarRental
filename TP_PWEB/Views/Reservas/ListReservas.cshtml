@@ -1,0 +1,85 @@
+﻿@model List<A.Models.Reserva>
+
+@{
+    ViewData["Title"] = "My Reservations";
+}
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+
+<h2>As minhas reservas</h2>
+
+<table class="table table-striped table-bordered" style="width:100%" id="reservasCli">
+    <thead>
+        <tr>
+            <th>
+                Veiculo
+            </th>
+            <th>
+                Levantamento
+            </th>
+            <th>
+                Entrega
+            </th>
+            <th>
+                Estado da reserva
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                    <a asp-controller="Veiculos" asp-action="Details" asp-route-id="@item.VeiculoId">@item.VeiculoId</a>
+            </td>
+            <td>
+                @Html.DisplayFor(a => item.DataLevantamento)
+            </td>
+            <td>
+                @Html.DisplayFor(a => item.DataEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(a => item.Estado)
+            </td>
+                @if (User.IsInRole("Funcionario"))
+                {
+                <td>
+                    <div class="d-flex flex-row justify-content-around">
+                        @using (Html.BeginForm("ReservaAccept", "Reservas", FormMethod.Post))
+                        {
+                            <input type="hidden" name="Veiculo" value="@item.Veiculo" />
+                            <input type="hidden" name="VeiculoId" value="@item.VeiculoId" />
+                            <input type="hidden" name="DataLevantamento" value="@item.DataLevantamento" />
+                            <input type="hidden" name="DataEntrega" value="@item.DataEntrega" />
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            <input type="hidden" name="ApplicationUserId" value="@item.ApplicationUserId" />
+                            <input type="submit" class="btn btn-primary" value="Accept" />
+                        }
+                        @using (Html.BeginForm("ReservaDecline", "Reservas", FormMethod.Post))
+                        {
+                                <input type="hidden" name="Veiculo" value="@item.Veiculo" />
+                                <input type="hidden" name="VeiculoId" value="@item.VeiculoId" />
+                                <input type="hidden" name="DataLevantamento" value="@item.DataLevantamento" />
+                                <input type="hidden" name="DataEntrega" value="@item.DataEntrega" />
+                                <input type="hidden" name="Id" value="@item.Id" />
+                                <input type="hidden" name="ApplicationUserId" value="@item.ApplicationUserId" />
+                                 <input type="submit" class="btn btn-primary" value="Refuse" />
+                        }
+
+                        <a class="btn btn-danger" asp-controller="Reservas" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </div>
+            </td>
+                        }
+              
+        </tr>
+        }
+    </tbody>
+</table>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#reservasCli').DataTable();
+    });
+</script>

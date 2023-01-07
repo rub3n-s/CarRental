@@ -1,0 +1,381 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = rubensantos_pedrobras
+build_property.RootNamespace = rubensantos_pedrobras
+build_property.ProjectDir = /Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGlzYWJsZTJmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRXh0ZXJuYWxMb2dpbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/RegisterEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3RlckVtcHJlc2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/RegisterFuncionario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3RlckZ1bmNpb25hcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/RegisterGestor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlckdlc3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Categorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Categorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Categorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Categorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/EmpresaRatings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYVJhdGluZ3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/EmpresaRatings/CreateFromDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYVJhdGluZ3MvQ3JlYXRlRnJvbURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/EmpresaRatings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYVJhdGluZ3MvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/EmpresaRatings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYVJhdGluZ3MvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/EmpresaRatings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYVJhdGluZ3MvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/EmpresaRatings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYVJhdGluZ3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/EmpresaRatings/ListAval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYVJhdGluZ3MvTGlzdEF2YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Empresas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Empresas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Empresas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Empresas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Empresas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzYXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Entregas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW50cmVnYXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Entregas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW50cmVnYXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Entregas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW50cmVnYXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Entregas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW50cmVnYXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Entregas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW50cmVnYXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Levantamentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGV2YW50YW1lbnRvcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Levantamentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGV2YW50YW1lbnRvcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Levantamentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGV2YW50YW1lbnRvcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Levantamentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGV2YW50YW1lbnRvcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Levantamentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGV2YW50YW1lbnRvcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/Carrinho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvQ2FycmluaG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/CreateFromDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvQ3JlYXRlRnJvbURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/ListReservas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvTGlzdFJlc2VydmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Reservas/PagarCompras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvUGFnYXJDb21wcmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/RoleManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZU1hbmFnZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/UserRoles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclJvbGVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/UserRoles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclJvbGVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/UserRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclJvbGVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/UserRoles/IndexGestor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclJvbGVzL0luZGV4R2VzdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/ListVeiculos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvTGlzdFZlaWN1bG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/QuickSearchPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvUXVpY2tTZWFyY2hQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/SearchDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvU2VhcmNoRGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Vendas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGFzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Vendas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGFzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Vendas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGFzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Vendas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGFzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Vendas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGFzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mfueld7gim

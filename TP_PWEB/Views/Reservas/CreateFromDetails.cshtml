@@ -1,0 +1,39 @@
+﻿@model A.Models.Reserva
+
+@{
+    ViewData["Title"] = "Reserva";
+}
+
+<h1>Reserva</h1>
+<h4>Veiculo</h4>
+
+<hr />
+<div class="container-fluid d-flex flex-column">
+    <form asp-action="CreateFromDetails">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="VeiculoId" />
+        <input type="hidden" asp-for="EmpresaId" />
+        <input type="hidden" asp-for="ApplicationUserId" />
+        <div class="d-flex flex-row w-50 justify-content-between">
+            <div class="form-group">
+                <label asp-for="DataLevantamento" class="control-label"></label>
+                <input asp-for="DataLevantamento" class="form-control" />
+                <span asp-validation-for="DataLevantamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataEntrega" class="control-label"></label>
+                <input asp-for="DataEntrega" class="form-control" />
+                <span asp-validation-for="DataEntrega" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Reservar" asp-route-qualact="1" class="btn btn-success mt-5"/>
+            <a asp-action="Index">Cancelar</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

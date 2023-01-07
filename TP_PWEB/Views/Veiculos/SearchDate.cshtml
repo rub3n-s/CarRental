@@ -1,0 +1,64 @@
+﻿@model A.ViewModels.PesquisaDataVeiculoViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>Existe(m) @Model.NumResultados veiculos disponíveis</p>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+    @foreach (Veiculo c in Model.ListaDeVeiculos)
+    {
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <img id="Foto" src="data:image/*;base64,@(Convert.ToBase64String(c.Foto))" width="250" height="250"/>
+                    <h4 class="my-0 fw-normal">
+                        Categoria:
+                        (@Html.DisplayFor(model=>c.Categoria.Nome))
+                    </h4>
+                    <h4 class="my-0 fw-normal">
+                        Empresa:
+                        (@Html.DisplayFor(model=>c.Empresa.Nome))
+                    </h4>
+                    <h4 class="my-0 fw-normal">
+                        Marca:
+                        (@Html.DisplayFor(model=>c.Marca))
+                    </h4>
+                    <h4 class="my-0 fw-normal">
+                        Modelo:
+                        (@Html.DisplayFor(model=>c.Modelo))
+                    </h4>
+                    <h4 class="my-0 fw-normal">
+                        Local:
+                        (@Html.DisplayFor(model=>c.Local))
+                    </h4>
+                    <h4 class="my-0 fw-normal">
+                        Preco:
+                        (@Html.DisplayFor(model=>Model.Preco))€
+                    </h4>
+                    <h4 class="my-0 fw-normal">
+                        Data Levanta:
+                        (@Html.DisplayFor(model=>Model.DataLevanta))
+                    </h4>
+                    <h4 class="my-0 fw-normal">
+                        Data Entrega:
+                        (@Html.DisplayFor(model=>Model.DataEntrega))
+                    </h4>
+
+                    @using (Html.BeginForm("CreateFromDetails", "Reservas", FormMethod.Post))
+                    {                       
+                        <input type="hidden" name="Id" value="@c.Id" /> 
+                        <input type="hidden" name="DataLevantamento" value="@Model.DataLevanta" />
+                        <input type="hidden" name="DataEntrega" value="@Model.DataEntrega" />
+                        <input type="hidden" name="Empresaid" value="@c.EmpresaId" />
+                        
+                        <input type="submit" class="btn btn-primary" style="margin-left:0.2em;" value="Reservar" />
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,101 @@
+﻿@model IEnumerable<A.Models.Reserva>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h3>Reservas da Empresa</h3>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+<table class="table table-striped table-bordered" style="width:100%" id="reservas">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataEntrega)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataLevantamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Veiculo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Empresa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApplicationUser )
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataLevantamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Veiculo.Marca)
+                <br>
+                    @Html.DisplayFor(modelItem => item.Veiculo.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empresa.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApplicationUser.PrimeiroNome)
+            </td>
+                <td>
+                    <div class="d-flex flex-row justify-content-around">
+                        @using (Html.BeginForm("ReservaAccept", "Reservas", FormMethod.Post))
+                        {
+                            <input type="hidden" name="Veiculo" value="@item.Veiculo" />
+                            <input type="hidden" name="VeiculoId" value="@item.VeiculoId" />
+                            <input type="hidden" name="DataLevantamento" value="@item.DataLevantamento" />
+                            <input type="hidden" name="DataEntrega" value="@item.DataEntrega" />
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            <input type="hidden" name="ApplicationUserId" value="@item.ApplicationUserId" />
+                            <input type="submit" class="btn btn-primary" style="margin-left:0.2em;" value="Aceitar" />
+                        }
+                        @using (Html.BeginForm("ReservaDecline", "Reservas", FormMethod.Post))
+                        {
+                            <input type="hidden" name="Veiculo" value="@item.Veiculo" />
+                            <input type="hidden" name="VeiculoId" value="@item.VeiculoId" />
+                            <input type="hidden" name="DataLevantamento" value="@item.DataLevantamento" />
+                            <input type="hidden" name="DataEntrega" value="@item.DataEntrega" />
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            <input type="hidden" name="ApplicationUserId" value="@item.ApplicationUserId" />
+                    <input type="submit" class="btn btn-warning" style="margin-left:0.2em;" value="Recusar" />
+ 
+                        }
+                                          |
+                        <a class="btn btn-info" style="margin-left:0.7em;" asp-controller="Levantamentos" asp-action="Create" asp-route-id="@item.Id">Levantar</a>
+                        <a class="btn btn-secondary" style="margin-left:0.2em;margin-right:0.7em;" asp-controller="Entregas" asp-action="Create" asp-route-id="@item.Id">Entregar</a> |
+                        <a class="btn btn-danger" asp-controller="Reservas" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </div>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#reservas').DataTable();
+    });
+</script>

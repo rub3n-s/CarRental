@@ -1,0 +1,47 @@
+﻿@model List<A.Models.EmpresaRating>
+
+@{
+    ViewData["Title"] = "My Ratings";
+}
+
+<div class="container-fluid d-flex align-content-end justify-content-end mb-3">
+    <a class="btn btn-primary" asp-action="Create" asp-controller="EmpresaRatings">Criar nova Avaliação</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Empresa
+            </th>
+            <th>
+                Comentário
+            </th>
+            <th>
+                Avaliação
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="EmpresaRatings" asp-action="Details" asp-route-id="@item.EmpresaId">@item.EmpresaId</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(a => item.Comentario)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => item.Avaliacao)
+                </td>
+                <td>
+                    <a class="btn btn-danger" asp-action="Delete" asp-controller="EmpresaRatings" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<A.Models.Empresa>
+
+@{
+    ViewData["Title"] = "Empresas";
+}
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+
+<h1>Empresas</h1>
+
+<div class="container-fluid d-flex align-content-end justify-content-end mb-3">
+    <a class="btn btn-primary" asp-area="Identity" asp-page="/Account/RegisterEmpresa">Criar nova empresa</a>
+</div>
+
+
+<table class="table table-striped table-bordered" style="width:100%" id="empresas">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscricao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subscricao)
+                </td>
+                <td>
+                    <a class="mx-1 btn btn-warning text-center" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="mx-1 btn btn-danger text-center" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#empresas').DataTable();
+    });
+</script>
