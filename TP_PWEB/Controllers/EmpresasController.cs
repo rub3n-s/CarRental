@@ -163,6 +163,13 @@ namespace A.Controllers
             {
                 _context.Empresa.Remove(empresa);
             }
+
+            var empresa2 = _context.Veiculo.Where(v => v.EmpresaId == id);
+            if (empresa2 != null)
+            {
+                TempData["msg"] = "<script>alert('Esta empresa já tem veículos associados.');</script>";
+                return RedirectToAction(nameof(Index));
+            }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

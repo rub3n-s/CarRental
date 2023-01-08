@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Empresas";
+    @Html.Raw(TempData["msg"])
 }
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
 
@@ -35,8 +36,8 @@
                     @Html.DisplayFor(modelItem => item.Subscricao)
                 </td>
                 <td>
-                    <a class="mx-1 btn btn-warning text-center" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                    <a class="mx-1 btn btn-danger text-center" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a class="mx-1 btn btn-warning text-center" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="mx-1 btn btn-danger text-center" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
                 </td>
             </tr>
         }

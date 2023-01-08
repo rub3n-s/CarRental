@@ -7,7 +7,6 @@
 
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
 
-
 <div class="container-fluid d-flex align-content-end justify-content-end">
     <a class="btn btn-primary" asp-area="Identity" asp-page="/Account/RegisterFuncionario">Registar Funcionário</a>
 </div>
@@ -17,46 +16,41 @@
 @if (User.IsInRole("Gestor"))
 {
     <h1>Membros da Empresa</h1>
-        <table class="table table-striped table-bordered" style="width:100%" id="users">
+    <table class="table table-striped table-bordered" style="width:100%" id="users">
         <thead>
-            <tr>
-                <th>Primeiro Nome</th>
-                <th>Segundo Nome</th>
-                <th>Email</th>
-                <th>Roles</th>
-                <th>Empresa</th>
-                <th>Acções</th>
-            </tr>
+        <tr>
+            <th>Primeiro Nome</th>
+            <th>Segundo Nome</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Empresa</th>
+            <th>Acções</th>
+        </tr>
         </thead>
         <tbody>
-            @foreach (var user in Model)
-            {
-                <tr>
-                    <td>@user.PrimeiroNome</td>
-                    <td>@user.UltimoNome</td>
-                    <td>@user.Email</td>
-                    <td>@string.Join(" , ", user.Roles.ToList())</td>
-                    <td>@user.EmpresaId</td>
-                    <td>
-                        <a class="btn btn-primary"
-                   asp-controller="UserRoles"
-                   asp-action="Details"
-                   asp-route-userId="@user.UserId">Manage Roles</a>
-                        <a class="btn btn-primary"
-                   asp-controller="UserRoles"
-                   asp-action="Details"
-                   asp-route-userId="@user.UserId">Escolher empresa</a>
-                    </td>
-                </tr>
-            }
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.PrimeiroNome</td>
+                <td>@user.UltimoNome</td>
+                <td>@user.Email</td>
+                <td>@string.Join(" , ", user.Roles.ToList())</td>
+                <td>@user.EmpresaId</td>
+                <td>
+                    <a class="btn btn-primary"
+                       asp-controller="UserRoles"
+                       asp-action="Details"
+                       asp-route-userId="@user.UserId">Manage Roles</a>
+                </td>
+            </tr>
+        }
         </tbody>
     </table>
-    }
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-    <script>
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script>
         $(document).ready(function () {
             $('#users').DataTable();
         });
     </script>
-    

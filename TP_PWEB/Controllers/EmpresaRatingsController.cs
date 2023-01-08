@@ -89,7 +89,7 @@ namespace A.Controllers
         }
 
         // GET: EmpresaRatings/Create
-        public IActionResult Create()
+        public IActionResult Create(int? id)
         {
             ViewData["EmpresaId"] = new SelectList(_context.Empresa, "Id", "Id");
             return View();
@@ -100,8 +100,19 @@ namespace A.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Comentario,Avaliacao,EmpresaId,ApplicationUserId")] EmpresaRating empresaRating)
+        public async Task<IActionResult> Create([Bind("Comentario,Avaliacao,EmpresaId,ApplicationUserId")] EmpresaRating empresaRating, int id)
         {
+            var applicationUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            empresaRating.ApplicationUserId = applicationUserId;
+            
+            var reserva = _context.Reserva.Where(v => v.Id == id).First();
+            empresaRating.EmpresaId = (int) reserva.EmpresaId;
+            
+            ModelState.Remove(nameof(empresaRating.EmpresaId));
+            ModelState.Remove(nameof(empresaRating.Empresa));
+            ModelState.Remove(nameof(empresaRating.ApplicationUser));
+            ModelState.Remove(nameof(empresaRating.ApplicationUserId));
+            
             if (ModelState.IsValid)
             {
                 _context.Add(empresaRating);

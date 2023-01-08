@@ -9,29 +9,38 @@
 
 <table class="table table-striped table-bordered" style="width:100%" id="reservasCli">
     <thead>
-        <tr>
+    <tr>
+        <th>
+            Veiculo
+        </th>
+        <th>
+            Levantamento
+        </th>
+        <th>
+            Entrega
+        </th>
+        <th>
+            Estado da reserva
+        </th>
+        <th>
+            Detalhes
+        </th>
+        @if (User.IsInRole("Cliente"))
+        {
             <th>
-                Veiculo
+                Avaliar Empresa
             </th>
-            <th>
-                Levantamento
-            </th>
-            <th>
-                Entrega
-            </th>
-            <th>
-                Estado da reserva
-            </th>
-            
-        </tr>
+        }
+    </tr>
     </thead>
     <tbody>
 
-        @foreach (var item in Model)
-        {
+    @foreach (var item in Model)
+    {
         <tr>
             <td>
-                    <a asp-controller="Veiculos" asp-action="Details" asp-route-id="@item.VeiculoId">@item.VeiculoId</a>
+                @Html.DisplayFor(a => item.Veiculo.Marca),
+                @Html.DisplayFor(a => item.Veiculo.Modelo)
             </td>
             <td>
                 @Html.DisplayFor(a => item.DataLevantamento)
@@ -42,8 +51,17 @@
             <td>
                 @Html.DisplayFor(a => item.Estado)
             </td>
-                @if (User.IsInRole("Funcionario"))
-                {
+            <td>
+                <a class="btn btn-success" asp-controller="Reservas" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+            </td>
+            @if (User.IsInRole("Cliente"))
+            {
+                <td>       
+                    <a class="btn btn-info" asp-controller="EmpresaRatings" asp-action="Create" asp-route-id="@item.Id">Avaliar</a>
+                </td>
+            }
+            @if (User.IsInRole("Funcionario"))
+            {
                 <td>
                     <div class="d-flex flex-row justify-content-around">
                         @using (Html.BeginForm("ReservaAccept", "Reservas", FormMethod.Post))
@@ -58,22 +76,22 @@
                         }
                         @using (Html.BeginForm("ReservaDecline", "Reservas", FormMethod.Post))
                         {
-                                <input type="hidden" name="Veiculo" value="@item.Veiculo" />
-                                <input type="hidden" name="VeiculoId" value="@item.VeiculoId" />
-                                <input type="hidden" name="DataLevantamento" value="@item.DataLevantamento" />
-                                <input type="hidden" name="DataEntrega" value="@item.DataEntrega" />
-                                <input type="hidden" name="Id" value="@item.Id" />
-                                <input type="hidden" name="ApplicationUserId" value="@item.ApplicationUserId" />
-                                 <input type="submit" class="btn btn-primary" value="Refuse" />
+                            <input type="hidden" name="Veiculo" value="@item.Veiculo" />
+                            <input type="hidden" name="VeiculoId" value="@item.VeiculoId" />
+                            <input type="hidden" name="DataLevantamento" value="@item.DataLevantamento" />
+                            <input type="hidden" name="DataEntrega" value="@item.DataEntrega" />
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            <input type="hidden" name="ApplicationUserId" value="@item.ApplicationUserId" />
+                            <input type="submit" class="btn btn-primary" value="Refuse" />
                         }
 
-                        <a class="btn btn-danger" asp-controller="Reservas" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a class="btn btn-danger" asp-controller="Reservas" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
                     </div>
-            </td>
-                        }
+                </td>
+            }
               
         </tr>
-        }
+    }
     </tbody>
 </table>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>

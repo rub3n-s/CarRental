@@ -336,6 +336,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvTGlzdFZlaWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/ListVeiculosOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvTGlzdFZlaWN1bG9zT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/ListVeiculosOrderDesc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvTGlzdFZlaWN1bG9zT3JkZXJEZXNjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/Views/Veiculos/QuickSearchPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVpY3Vsb3MvUXVpY2tTZWFyY2hQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

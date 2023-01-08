@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/rubensantos_pedrobras.bundle.scp.css"
     },
     {
+      "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -13,8 +17,24 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/img/Car-manager-Head.jpg",
+      "PackagePath": "staticwebassets/img/Car-manager-Head.jpg"
+    },
+    {
+      "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/img/top-carsharing-img.svg",
+      "PackagePath": "staticwebassets/img/top-carsharing-img.svg"
+    },
+    {
       "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
     },
     {
       "Id": "/Users/rubensantos/Documents/GitHub/CarRental/TP_PWEB/wwwroot/lib/bootstrap/LICENSE",

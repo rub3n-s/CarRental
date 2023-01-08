@@ -24,35 +24,80 @@ namespace A.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
+        [Authorize(Roles = "Cliente,Gestor,Funcionario")]
+        public async Task<IActionResult> ListVeiculosOrder()
+        {
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria.ToList(), "Id", "Nome");
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa.ToList(), "Id", "Nome");
+            var veiculos = _context.Veiculo
+                .Where(v => v.Disponivel == true)
+                .Include(v => v.Categoria)
+                .Include(v => v.Empresa)
+                .OrderBy(v => v.PrecoDiario);
+            return View(await veiculos.ToListAsync());
+        }
+
+        [AllowAnonymous]
+        [Authorize(Roles = "Cliente,Gestor,Funcionario")]
+        public async Task<IActionResult> ListVeiculosOrderDesc()
+        {
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria.ToList(), "Id", "Nome");
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa.ToList(), "Id", "Nome");
+            var veiculos = _context.Veiculo
+                .Where(v => v.Disponivel == true)
+                .Include(v => v.Categoria)
+                .Include(v => v.Empresa)
+                .OrderByDescending(v => v.PrecoDiario);
+            return View(await veiculos.ToListAsync());
+        }
+        
+        /*[Authorize(Roles = "Cliente,Gestor,Funcionario")]
+        public async Task<IActionResult> ListVeiculosOrderEmp()
+        {
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria.ToList(), "Id", "Nome");
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa.ToList(), "Id", "Nome");
+            var veiculos = _context.Veiculo
+                .Where(v => v.Disponivel == true)
+                .Include(v => v.Categoria)
+                .Include(v => v.Empresa)
+                .OrderByDescending(v => v.PrecoDiario);
+            return View(await veiculos.ToListAsync());
+        } */
+                
         // GET: Veiculos
         [Authorize(Roles = "Gestor,Funcionario")]
         public async Task<IActionResult> Index()
         {
             var applicationUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var user = _context.Users.Where(x => x.Id == applicationUserId).First();
-
             var applicationDbContext = _context.Veiculo.Include(v => v.Categoria).Include(v => v.Empresa).Where(p => p.EmpresaId == user.EmpresaId);
             return View(await applicationDbContext.ToListAsync());
         }
 
+        [AllowAnonymous]
         [Authorize(Roles = "Cliente")]
         public async Task<IActionResult> ListVeiculos()
         {
             ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome");
-            var veiculos = _context.Veiculo.Include(p => p.Categoria).Include(p => p.Empresa);
-
-
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa.ToList(), "Id", "Nome");
+            var veiculos = _context.Veiculo
+                .Where(v => v.Disponivel == true)
+                .Include(p => p.Categoria)
+                .Include(p => p.Empresa);
             return View(await veiculos.ToListAsync());
         }
         
+        [AllowAnonymous]
         [Authorize(Roles = "Cliente")]
         [HttpPost]
         public async Task<IActionResult> ListVeiculos(string TextoAPesquisar, int CategoriaId)
         {
             ViewData["CategoriaId"] = new SelectList(_context.Categoria.ToList(), "Id", "Nome");
-
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa.ToList(), "Id", "Nome");
+            
             if (string.IsNullOrWhiteSpace(TextoAPesquisar))
-                return View(_context.Veiculo.Where(c => c.CategoriaId == CategoriaId).ToList());
+                return View(_context.Veiculo.Where(v => v.Disponivel == true).Where(c => c.CategoriaId == CategoriaId).ToList());
             else
             {
                 var resultado = from c in _context.Veiculo.Include(p => p.Empresa)
@@ -60,10 +105,11 @@ namespace A.Controllers
                            || c.Local.Contains(TextoAPesquisar) 
                            || c.Empresa.Nome.Contains(TextoAPesquisar))
                     select c;
-                return View(resultado.ToList());
+                return View(resultado.Where(v => v.Disponivel == true).ToList());
             }
         }
    
+        [AllowAnonymous]
         [Authorize(Roles = "Cliente")]
         public async Task<IActionResult> Search(string? TextoAPesquisar)
         {
@@ -91,6 +137,7 @@ namespace A.Controllers
             return View(pesquisaVM);
         }
         
+        [AllowAnonymous]
         [Authorize(Roles = "Cliente")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -117,6 +164,7 @@ namespace A.Controllers
             return View(pesquisaVeiculo);
         }
 
+        [AllowAnonymous]
         [Authorize(Roles = "Cliente")]
         public async Task<IActionResult> SearchDate(string? Local, DateTime DataLevanta, DateTime DataEntrega)
         {
@@ -127,15 +175,12 @@ namespace A.Controllers
             //  pesquisaDVM.ListaDeReservas = 
 
             pesquisaDVM.Local = Local;
-            
-
             pesquisaDVM.NumResultados = pesquisaDVM.ListaDeVeiculos.Count();
 
-
             return View(pesquisaDVM);
-
         }
 
+        [AllowAnonymous]
         [Authorize(Roles = "Cliente")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -154,6 +199,7 @@ namespace A.Controllers
             return View(pesquisaDataVeiculo);
         }
 
+        [AllowAnonymous]
         [Authorize(Roles = "Gestor,Funcionario,Cliente")]
         // GET: Veiculos/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -193,9 +239,6 @@ namespace A.Controllers
         public IActionResult Create()
         {
             ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome");
-            //   ViewData["EmpresaId"] = new SelectList(_context.Empresa, "Id", "Nome");
-            // ViewData["GestorId"] = new SelectList(_context.Gestor, "Id", "Nome");
-            //  ViewData["FuncionarioId"] = new SelectList(_context.Funcionario, "Id", "Nome");
             return View();
         }
 
@@ -227,7 +270,7 @@ namespace A.Controllers
             {
                 _context.Add(veiculo);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(ListVeiculos));
+                return RedirectToAction(nameof(Index));
             }
             ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", veiculo.CategoriaId);
           
@@ -250,8 +293,6 @@ namespace A.Controllers
             }
             ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", veiculo.CategoriaId);
             ViewData["EmpresaId"] = new SelectList(_context.Empresa, "Id", "Nome", veiculo.EmpresaId);
-            //  ViewData["GestorId"] = new SelectList(_context.Gestor, "Id", "Id", veiculo.GestorId);
-            //  ViewData["FuncionarioId"] = new SelectList(_context.Funcionario, "Id", "Id", veiculo.FuncionarioId);
             return View(veiculo);
         }
 
@@ -322,6 +363,13 @@ namespace A.Controllers
             if (veiculo == null)
             {
                 return NotFound();
+            }
+
+            var reserva = _context.Reserva.Where(r => r.VeiculoId == id);
+            if (reserva != null)
+            {
+                TempData["msg"] = "<script>alert('Este veículo já tem uma reserva associada.');</script>";
+                return RedirectToAction(nameof(Index));
             }
 
             return View(veiculo);

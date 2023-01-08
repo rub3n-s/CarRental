@@ -174,7 +174,15 @@ namespace A.Areas.Identity.Pages.Account
 
                     // associa a Role Cliente ao utilizador criado
                     await _userManager.AddToRoleAsync(user, "Gestor");
-                    return RedirectToPage("/Account/Login", new { area = "Identity" });
+                    if (User.IsInRole("Admin"))
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
+                    else
+                    {
+                        return RedirectToPage("/Account/Login", new { area = "Identity" });
+                    }
+                    
                     //FALTA ATIVAR A CONTA COMO FAZER?
                 }
                 foreach (var error in result.Errors)

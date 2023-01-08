@@ -48,7 +48,7 @@ namespace A.Controllers
 
             var customer = _context.Users.Where(x => x.Id == applicationUserId).First();
 
-            var reservas = _context.Reserva.Where(p => p.ApplicationUserId == customer.Id);
+            var reservas = _context.Reserva.Where(p => p.ApplicationUserId == customer.Id).Include(v => v.Veiculo).Include(a => a.ApplicationUser);
 
             return View(await reservas.ToListAsync());
         }
@@ -57,6 +57,7 @@ namespace A.Controllers
         [Authorize(Roles = "Gestor,Funcionario,Cliente")]
         public async Task<IActionResult> Details(int? id)
         {
+            
             if (id == null || _context.Reserva == null)
             {
                 return NotFound();
@@ -65,6 +66,8 @@ namespace A.Controllers
             var reserva = await _context.Reserva
                 .Include(r => r.Empresa)
                 .Include(r => r.Veiculo)
+                .Include(r => r.Entrega)
+                .Include(r => r.Levantamento)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (reserva == null)
             {
@@ -117,7 +120,7 @@ namespace A.Controllers
         [Authorize(Roles = "Gestor,Funcionario")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ReservaAccept([Bind("Id,DataLevantamento,DataEntrega,VeiculoId,EmpresaId,ApplicationUserId")] Reserva reserva)
+        public async Task<IActionResult> ReservaAccept([Bind("Id,DataLevantamento,DataEntrega,VeiculoId,EmpresaId,ApplicationUserId,Preco")] Reserva reserva)
         {
             var applicationUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
@@ -138,7 +141,7 @@ namespace A.Controllers
         [Authorize(Roles = "Gestor,Funcionario")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ReservaDecline([Bind("Id,DataLevantamento,DataEntrega,VeiculoId,EmpresaId,ApplicationUserId")] Reserva reserva)
+        public async Task<IActionResult> ReservaDecline([Bind("Id,DataLevantamento,DataEntrega,VeiculoId,EmpresaId,ApplicationUserId,Preco")] Reserva reserva)
         {
             var applicationUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 

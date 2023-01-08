@@ -6,335 +6,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ae6741-5f58-4c34-88bd-83fe33d10a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rubensantos_pedrobras/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rubensantos_pedrobras/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rubensantos_pedrobras/.idea/efCoreCommonOptions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rubensantos_pedrobras/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rubensantos_pedrobras/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rubensantos_pedrobras/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/EntregasController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/LevantamentosController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Migrations/20230107171228_Initial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Migrations/20230107171228_Initial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Migrations/20230107174433_PrecoDiario.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Migrations/20230107174433_PrecoDiario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Levantamento.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/EmpresaRatings/CreateFromDetails.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Entregas/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Entregas/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Entregas/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Entregas/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Entregas/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Levantamentos/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Levantamentos/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Levantamentos/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Levantamentos/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Levantamentos/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/SQLitePCLRaw.core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.staticwebassets.runtime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/alpine-arm/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/alpine-arm64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-musl-arm/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/.nupkg.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator.6.0.11.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator.6.0.11.nupkg.sha512" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/DotnetToolSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Humanizer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/MessagePack.Annotations.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/MessagePack.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.Features.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.Features.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.VisualBasic.Features.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.CodeAnalysis.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.DiaSymReader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.DotNet.Scaffolding.Shared.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.DotNet.Scaffolding.Shared.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.VisualStudio.Debugger.Contracts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.DependencyResolver.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.LibraryModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.Packaging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.ProjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.Protocol.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/NuGet.Versioning.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Composition.AttributedModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Composition.Convention.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Composition.Hosting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Composition.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Composition.TypedParts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.IO.Pipelines.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Security.Permissions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/build/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/buildMultiTargeting/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/dotnet-aspnet-codegenerator.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/dotnet-aspnet-codegenerator.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/dotnet-aspnet-codegenerator.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/dotnet-aspnet-codegenerator.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/dotnet-aspnet-codegenerator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/shims/win-x64/dotnet-aspnet-codegenerator.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/shims/win-x86/dotnet-aspnet-codegenerator.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/toolassets/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/dotnet-aspnet-codegenerator/6.0.11/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/.store/dotnet-aspnet-codegenerator/6.0.11/restore.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/A.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/A.csproj.codegeneration.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/rubensantos_pedrobras.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/rubensantos_pedrobras.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/scopedcss/bundle/rubensantos_pedrobras.styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/scopedcss/projectbundle/rubensantos_pedrobras.bundle.scp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.pack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.A.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.build.A.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.build.rubensantos_pedrobras.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.A.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.rubensantos_pedrobras.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.A.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.rubensantos_pedrobras.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.rubensantos_pedrobras.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/dotnet-aspnet-codegenerator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/rubensantos_pedrobras.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/rubensantos_pedrobras.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/rubensantos_pedrobras.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rubensantos_pedrobras.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Veiculos/ListVeiculosOrder.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Veiculos/ListVeiculosOrderDesc.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/img/Car-manager-Head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/img/top-carsharing-img.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/RegisterEmpresa.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/RegisterEmpresa.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EmpresaRatingsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmpresaRatingsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EmpresasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmpresasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EntregasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EntregasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/LevantamentosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LevantamentosController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ReservasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ReservasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/VeiculosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/VeiculosController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/PesquisaDataVeiculoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/PesquisaDataVeiculoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Categorias/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Categorias/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Categorias/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Categorias/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Categorias/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Categorias/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Categorias/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Categorias/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Categorias/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Categorias/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/EmpresaRatings/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/EmpresaRatings/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/EmpresaRatings/ListAval.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/EmpresaRatings/ListAval.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Empresas/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Empresas/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Empresas/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Empresas/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Empresas/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Empresas/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Empresas/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Empresas/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Empresas/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Empresas/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Levantamentos/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Levantamentos/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Reservas/CreateFromDetails.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Reservas/CreateFromDetails.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Reservas/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Reservas/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Reservas/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Reservas/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Reservas/ListReservas.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Reservas/ListReservas.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/UserRoles/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/UserRoles/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/UserRoles/IndexGestor.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/UserRoles/IndexGestor.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Veiculos/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Veiculos/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Veiculos/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Veiculos/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Veiculos/ListVeiculos.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Veiculos/ListVeiculos.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Veiculos/Search.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Veiculos/Search.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/rubensantos_pedrobras.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/rubensantos_pedrobras.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/rubensantos_pedrobras.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/rubensantos_pedrobras.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/rubensantos_pedrobras.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/rubensantos_pedrobras.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.rubensantos_pedrobras.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets/msbuild.rubensantos_pedrobras.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rubensantos_pedrobras.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/rubensantos_pedrobras.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,13 +73,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ReservasController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectId" id="2K0PcPDfAABdbDMUKXLnCuLtB1N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -409,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673108607589</updated>
-      <workItem from="1673108612612" duration="14491000" />
+      <workItem from="1673108612612" duration="32970000" />
     </task>
     <servers />
   </component>
@@ -434,22 +167,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/ReservasController.cs</url>
-          <line>107</line>
-          <properties documentPath="$PROJECT_DIR$/Controllers/ReservasController.cs" initialLine="106" containingFunctionPresentation="method 'CreateFromDetails'">
-            <startOffsets>
-              <option value="3812" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3812" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#A.Models.Levantamento" memberName="Observacoes" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

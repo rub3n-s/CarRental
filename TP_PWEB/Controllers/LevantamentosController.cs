@@ -47,7 +47,7 @@ namespace A.Controllers
         }
 
         // GET: Levantamentos/Create
-        public IActionResult Create()
+        public IActionResult Create(int? id)
         {
             ViewData["Id"] = new SelectList(_context.Reserva, "Id", "Id");
             return View();

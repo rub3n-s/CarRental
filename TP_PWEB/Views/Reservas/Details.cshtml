@@ -4,7 +4,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalhes</h1>
 
 <div>
     <h4>Reserva</h4>
@@ -52,9 +52,35 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ApplicationUserId)
         </dd>
+        <!-- Entrega -->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Entrega)
+        </dt>
+        <dd class="col-sm-10">
+            KM: @Html.DisplayFor(model => model.Entrega.NumKM)  <br/>
+            Danos: @Html.DisplayFor(model => model.Entrega.Danos)   <br/>
+            Observações: @Html.DisplayFor(model => model.Entrega.Observacoes)   <br/>
+            Funcionário: @Html.DisplayFor(model => model.Entrega.FuncionarioEmail)  <br/>
+        </dd>
+        <!-- Levantamento -->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Levantamento)
+        </dt>
+        <dd class="col-sm-10">
+            KM: @Html.DisplayFor(model => model.Levantamento.NumKM)  <br/>
+            Danos: @Html.DisplayFor(model => model.Levantamento.Danos)   <br/>
+            Observações: @Html.DisplayFor(model => model.Levantamento.Observacoes)   <br/>
+            Funcionário: @Html.DisplayFor(model => model.Levantamento.FuncionarioEmail)  <br/>
+        </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    @if (User.IsInRole("Cliente"))
+    {
+        <a asp-action="ListReservas">Voltar</a>
+    }
+    else
+    {
+        <a asp-action="Index">Voltar</a>
+    }
 </div>

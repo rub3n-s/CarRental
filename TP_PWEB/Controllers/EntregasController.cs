@@ -47,7 +47,7 @@ namespace A.Controllers
         }
 
         // GET: Entregas/Create
-        public IActionResult Create()
+        public IActionResult Create(int? id)
         {
             ViewData["Id"] = new SelectList(_context.Reserva, "Id", "Id");
             return View();
@@ -62,6 +62,9 @@ namespace A.Controllers
         public async Task<IActionResult> Create([Bind("Id,NumKM,Danos,Observacoes,FuncionarioEmail,ReservaId")] Entrega entrega, int id)
         {
             entrega.ReservaId = id;
+            
+            ModelState.Remove(nameof(entrega.Reserva));
+            ModelState.Remove(nameof(entrega.ReservaId));
             
             if (ModelState.IsValid)
             {

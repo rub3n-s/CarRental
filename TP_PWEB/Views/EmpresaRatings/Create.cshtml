@@ -12,6 +12,9 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id"/>
+            <input type="hidden" asp-for="EmpresaId"/>
+            <input type="hidden" asp-for="ApplicationUserId"/>
             <div class="form-group">
                 <label asp-for="Comentario" class="control-label"></label>
                 <input asp-for="Comentario" class="form-control" />
@@ -21,15 +24,6 @@
                 <label asp-for="Avaliacao" class="control-label"></label>
                 <input asp-for="Avaliacao" class="form-control" />
                 <span asp-validation-for="Avaliacao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EmpresaId" class="control-label"></label>
-                <select asp-for="EmpresaId" class ="form-control" asp-items="ViewBag.EmpresaId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="ApplicationUserId" class="control-label"></label>
-                <input asp-for="ApplicationUserId" class="form-control" />
-                <span asp-validation-for="ApplicationUserId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

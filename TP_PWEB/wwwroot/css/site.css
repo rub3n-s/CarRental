@@ -16,3 +16,23 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.logo {
+  max-width: 100px;
+}
+
+.no-padding {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.managment-img {
+  max-width: 70%;
+  max-height: 600px;
+}
+
+.container-fluid {
+  height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}

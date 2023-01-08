@@ -15,7 +15,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark mb-3 fixed-top" style="background: rgba(0, 0, 0, .5);">
                     <div class="container">
-                        <a class="navbar-brand text-warning" href="#"><svg bootstrap-icon="SignTurnRightFill" class="text-warning" width="48" height="48" aria-label="SignTurnRightFill"></svg> <strong>PWEB</strong></a>
+                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="logo" src="/img/logo.png" /></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -34,7 +34,7 @@
                                             <a class="nav-link text-light" asp-area="" asp-controller="Empresas" asp-action="Index">Empresas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" asp-area="" asp-controller="UserRoles" asp-action="Index">Users</a>
+                                            <a class="nav-link text-white" asp-area="" asp-controller="UserRoles" asp-action="Index">Utilizadores</a>
                                         </li>
                                     }
                                     @if (User.IsInRole("Cliente"))
@@ -83,7 +83,6 @@
                             </ul>
                            
                             <partial name="_LoginPartial" />
-                            <partial name="~/Views/Veiculos/QuickSearchPartial.cshtml" />
 
                         </div>
                     </div>
